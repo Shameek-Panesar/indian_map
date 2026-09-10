@@ -166,7 +166,7 @@ export const locations = [
     coordinates: { x: 211, y: 516, lat: 20.0268, lng: 75.1774 },
     period: "Satavahana, Vakataka, Rashtrakuta (2nd BCE–10th CE)",
     artForms: ["Painting", "Sculpture", "Architecture"],
-    image: "/images/ajanta.png",
+    image: "./images/ajanta.png",
     description: "Monumental UNESCO rock-cut caves housing ancient Buddhist mural paintings and the monolithic Kailash Temple.",
     historicalContext: "Ajanta Cave murals represent the golden age of ancient Indian wall painting. Ellora's Kailash Temple was carved from a single monolithic basalt rock cliff.",
     artworks: ["padmapani-bodhisattva-ajanta", "kailash-temple-ellora"],

@@ -67,7 +67,7 @@ export const movements = [
     period: "9th–13th Century CE",
     description: "World-renowned lost-wax (Cire Perdue) bronze casting technique practiced under Imperial Chola monarchs, producing fluid, iconic statues of Nataraja, Parvati, and divine saints.",
     artists: ["Sthapatis of Swamimalai & Thanjavur"],
-    image: "/images/nataraja.png"
+    image: "./images/nataraja.png"
   },
   {
     id: "kalinga-architecture",

@@ -16,9 +16,13 @@ export default function ImageWithFallback({ src, alt, className = "", category =
     );
   }
 
+  const resolvedSrc = (typeof src === 'string' && src.startsWith('/') && !src.startsWith('//'))
+    ? '.' + src
+    : src;
+
   return (
     <img
-      src={src}
+      src={resolvedSrc}
       alt={alt || "Indian Art Heritage"}
       className={className}
       onError={() => setError(true)}

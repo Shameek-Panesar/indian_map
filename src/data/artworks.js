@@ -8,7 +8,7 @@ export const artworks = [
     period: "Imperial Chola Period",
     category: "Sculpture",
     material: "Lost-wax cast bronze",
-    image: "/images/nataraja.png",
+    image: "./images/nataraja.png",
     description: "Iconic depiction of Shiva performing the Anandatandava (Cosmic Dance of Creation and Destruction) within a fiery halo (Prabhamandala).",
     significance: "Regarded as one of the greatest masterpieces of world sculpture, embodying profound Hindu cosmic philosophy through perfect bronze symmetry."
   },
@@ -112,7 +112,7 @@ export const artworks = [
     period: "Vakataka Dynasty",
     category: "Painting",
     material: "Fresco tempera on rock wall plaster",
-    image: "/images/ajanta.png",
+    image: "./images/ajanta.png",
     description: "Graceful wall mural of Bodhisattva Avalokiteshvara holding a blue lotus flower, rendered with soft modeling line work.",
     significance: "The crown jewel of ancient Indian painting, showcasing sophisticated shading and spiritual serenity."
   },

@@ -7,9 +7,9 @@ export default function Hero() {
   const scroll = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 
   const featuredWorks = [
-    { title: "Nataraja Bronze", loc: "Thanjavur", cat: "Chola Lost-Wax Bronze", img: "/images/nataraja.png", accent: "#D96B07" },
+    { title: "Nataraja Bronze", loc: "Thanjavur", cat: "Chola Lost-Wax Bronze", img: "./images/nataraja.png", accent: "#D96B07" },
     { title: "Taj Mahal", loc: "Agra", cat: "Mughal Architecture", img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=600", accent: "#1A2B56" },
-    { title: "Ajanta Cave 1", loc: "Maharashtra", cat: "Ancient Vakataka Fresco", img: "/images/ajanta.png", accent: "#B5451B" },
+    { title: "Ajanta Cave 1", loc: "Maharashtra", cat: "Ancient Vakataka Fresco", img: "./images/ajanta.png", accent: "#B5451B" },
   ];
 
   return (

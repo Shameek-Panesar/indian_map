@@ -82,7 +82,7 @@ export default function IndiaSvgMap({
 
           {/* Background Official Image Map (map.jpeg) */}
           <image
-            href="/map.jpeg"
+            href="./map.jpeg"
             x="0"
             y="0"
             width={CANVAS_WIDTH}
